@@ -43,9 +43,9 @@ $(document)
 					// TODO: convert the sizes to admin configurable settings... if anyone asks.
 					// use an <object> wrapping an <embed> for backwards compatibility reasons.
 					addElement(source, details,'<object title="' + details.name + '" data="'
-						+ url
+						+ details.url
 						+ '" type="application/pdf" height="1000px" width="100%"><embed src="'
-						+ url
+						+ details.url
 						+ '" type="application/pdf" height="1000px" width="100%"/></object>');
 					break;
 				    case 'png':
