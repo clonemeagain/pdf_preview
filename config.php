@@ -28,12 +28,21 @@ class PDFPreviewPluginConfig extends PluginConfig
                 'label' => $__('PDF Inliner')
             )),
 
+            'pdf-unsafe-fetch' => new ChoiceField(array(
+                'label' => $__('Allow fetching HTML & Text file attachments and embedding'),
+                'default' => 'off',
+                'choices' => array(
+                    'off' => $__('Safest: OFF'),
+                    'on' => $__('I accept the dangers: ON')
+                )
+            )),
+
             'pdf-enabled' => new ChoiceField(array(
                 'label' => $__('PDF Activated for'),
                 'default' => "staff",
                 'choices' => array(
                     'disabled' => $__('Disabled'),
-                    'staff' => $__('Agents Only'),
+                    'staff' => $__('Agents Only')
                 )
             ))
         );
