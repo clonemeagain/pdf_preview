@@ -2,7 +2,8 @@
 An osTicket plugin allowing inlining of Attachments
 
 
-Simply `git clone https://github.com/clonemeagain/pdf_preview.git /path/to/your/osTicket/Installation/includes/plugins/`
+Simply `git clone https://github.com/clonemeagain/pdf_preview.git /includes/plugins/pdf_preview`
+Or extract https://github.com/clonemeagain/pdf_preview/archive/master.zip into /includes/plugins/pdf_preview
 
 Navigate to: https://your.domain/support/scp/plugins.php?a=add to add a new plugin.
 
