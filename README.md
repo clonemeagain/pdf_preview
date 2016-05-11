@@ -16,3 +16,8 @@ Now you can configure the plugin, click the link "PDF Inline viewer" and choose 
 To remove the plugin, simply return to the plugins view, click the checkbox and push the "Disable" button, then check it again, and push the "Delete" button.
 
 The plugin will still be available, you have deleted the config only at this point, to remove after deleting, remove the /plugins/pdf_preview folder.
+
+
+How it looks:
+
+![agent_view](https://cloud.githubusercontent.com/assets/5077391/15166401/bedd01fc-1761-11e6-8814-178c7d4efc03.png)
